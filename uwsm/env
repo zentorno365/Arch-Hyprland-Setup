@@ -21,3 +21,7 @@ export XDG_SESSION_DESKTOP=Hyprland
 export NVD_BACKEND=direct
 export LIBVA_DRIVER_NAME=nvidia
 export __GLX_VENDOR_LIBRARY_NAME=nvidia
+
+#Dark mode for QT apps
+export QT_QPA_PLATFORMTHEME=qt5ct:qt6ct
+
