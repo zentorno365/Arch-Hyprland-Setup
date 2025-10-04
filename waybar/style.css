@@ -1,0 +1,71 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "SF Pro Display", "FontAwesome", Arial, sans-serif;
+    font-size: 1.1rem;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    color: white;
+}
+
+tooltip {
+  background: rgba(43, 48, 59, 0.5);
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+tooltip label {
+  color: white;
+}
+
+#workspaces {
+    margin: 5px 1px 6px 1px;
+    padding: 0px 1px;
+    border-radius: 15px;
+    border: 0px;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+}
+
+#workspaces button {
+    padding: 0px 5px;
+    margin: 4px 3px;
+    border-radius: 15px;
+    border: 0px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+#workspaces button.active {
+    color: black;
+    background: white;
+    border-radius: 15px;
+    min-width: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+#workspaces button:hover {
+    color: black;
+    background: white;
+    border-radius: 15px;
+}
+
+#clock,
+#battery,
+#network,
+#pulseaudio,
+#bluetooth,
+#custom-updates,
+#custom-exit,
+#custom-stats,
+#window {
+    padding: 5px 15px;
+    margin: 7px;
+    border-radius: 100px;
+    background-color: #e8eaed;
+    color: #121212;
+}
+

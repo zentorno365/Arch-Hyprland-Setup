@@ -12,6 +12,12 @@ export ELECTRON_OZONE_PLATFORM_HINT=wayland
 export OZONE_PLATFORM=wayland
 export XDG_SESSION_TYPE=wayland
 export GDK_SCALE=1
+export GDK_DPI_SCALE=1.1
+export QT_SCALE_FACTOR=1.1
+export QT_AUTO_SCREEN_SCALE_FACTOR=1
+export SCALE_FACTOR=1.1
+export ELECTRON_FORCE_DEVICE_SCALE_FACTOR=1.1
+export GTK_THEME=Adwaita:dark
 
 # Allow better support for screen sharing (Google Meet, Discord, etc)
 export XDG_CURRENT_DESKTOP=Hyprland
@@ -24,4 +30,7 @@ export __GLX_VENDOR_LIBRARY_NAME=nvidia
 
 #Dark mode for QT apps
 export QT_QPA_PLATFORMTHEME=qt5ct:qt6ct
+
+#export custom scripts into path
+export PATH="$PATH:$HOME/.config/custom_scripts"
 
